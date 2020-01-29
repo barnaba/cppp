@@ -11,11 +11,6 @@ int main() {
   std::cout << "Gib 2 ints:" << std::endl;
   std::cin >> a >> b;
 
-  while (a == b) {
-    std::cout << a << std::endl;
-    return 0;
-  }
-
   // book didn't taught me ifs nor abs() yet...
   while (a < b) {
     std::cout << a++ << " ";
