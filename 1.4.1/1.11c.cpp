@@ -6,14 +6,14 @@
  */
 
 int main() {
-  int a, b, direction;
-
   std::cout << "Gib 2 ints:" << std::endl;
+
+  int a, b;
   std::cin >> a >> b;
 
   // book didn't taught me ifs nor abs() yet...
   //
-  direction = (a < b) - (a > b);
+  int direction = (a < b) - (a > b);
   while (a != b) {
     std::cout << a << " ";
     a += direction;
